@@ -1,0 +1,26 @@
+{
+  "name": "wdio-google-search",
+  "version": "1.0.0",
+  "description": "Automation environment example, including TAF layers, using WebdriverIO as web UI test framework and Mocha as test runner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "oscar.centeno@outlook.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.6.2",
+    "@wdio/local-runner": "^8.6.2",
+    "@wdio/mocha-framework": "^8.6.1",
+    "@wdio/spec-reporter": "^8.4.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^111.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
+
