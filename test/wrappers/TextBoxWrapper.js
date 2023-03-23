@@ -10,7 +10,7 @@ class TextBoxWrapper {
 
     // press ENTER to search as a user usually does
     const ENTER = '\uE007';
-    browser.keys(ENTER);
+    await browser.keys(ENTER);
   }
 
   async type(text) {
