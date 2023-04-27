@@ -57,12 +57,12 @@ exports.config = {
       maxInstances: 1,
       //
       browserName: 'chrome',
-      acceptInsecureCerts: true,
+      acceptInsecureCerts: true
       // If outputDir is provided WebdriverIO can capture driver session logs
       // it is possible to configure which logTypes to include/exclude.
       // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
       // excludeDriverLogs: ['bugreport', 'server'],
-    },
+    }
   ],
   //
   // ===================
@@ -140,8 +140,8 @@ exports.config = {
   // See the full list at http://mochajs.org/
   mochaOpts: {
     ui: 'bdd',
-    timeout: 60000,
-  },
+    timeout: 60000
+  }
   //
   // =====
   // Hooks
@@ -288,5 +288,4 @@ exports.config = {
    */
   // onReload: function(oldSessionId, newSessionId) {
   // }
-};
-
+}

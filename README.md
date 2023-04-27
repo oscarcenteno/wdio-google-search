@@ -23,6 +23,7 @@ Sample UI test included searchs for "apple" on google.es and checks that the num
 - WebdriverIO framework: UI interactions framework
 - Mocha: test runner
 - Chai: introduced for assertions for Mocha unit tests
+- Standard: linting done by ESlint under the Javascript Standard.
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements:

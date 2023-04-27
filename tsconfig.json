@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+      "allowJs": true,
+      "target": "es6",
+      "checkJs": true,
+      "noEmit": true,
+      "moduleResolution": "node",
+      "types": [
+          "mocha",
+          "node"
+      ]
+  },
+  "include": [
+      "test/**/*.js",
+  ],
+  "exclude": [
+      "node_modules",
+      "framework",
+      "**/*.json"
+  ]
+}

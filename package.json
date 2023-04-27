@@ -17,10 +17,13 @@
     "@wdio/spec-reporter": "^8.4.0",
     "chai": "^4.3.7",
     "chromedriver": "^111.0.0",
+    "standard": "^17.0.0",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "dependencies": {
     "mochawesome": "^7.1.3"
+  },
+  "standard": {
+    "globals": [ "describe", "it", "before", "after", "beforeEach", "afterEach" ]
   }
 }
-
